@@ -1,18 +1,23 @@
 // assets/js/components/common/Footer.js
 export function Footer() {
+  const currentYear = new Date().getFullYear();
   return `
-    <footer class="bg-dark py-4 mt-auto">
+    <footer class="bg-ck py-4 mt-auto">
       <div class="container px-5">
         <div class="row align-items-center justify-content-between flex-column flex-sm-row">
           <div class="col-auto">
-            <div class="small m-0 text-white">Copyright &copy; Your Website 2023</div>
+            <div class="small m-0 color-ck">
+            Copyright &copy; designed & developed by 
+            <a class="text-decoration-none color-ck text-ck-special" href="https://kayacuneyt.com" target="_blank">
+            Cüneyt Kaya</a> ${currentYear}
+            </div>
           </div>
           <div class="col-auto">
-            <a class="link-light small" href="./privacy.html">Privacy</a>
+            <a class="color-ck small text-decoration-none" href="./privacy.html">Privacy</a>
+            <span class="color-ck mx-1">&middot;</span>
+            <a class="color-ck small text-decoration-none" href="./terms.html">Terms</a>
             <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="./terms.html">Terms</a>
-            <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="./contact.html">Contact</a>
+            <a class="color-ck small text-decoration-none" href="./contact.html">Contact</a>
           </div>
         </div>
       </div>

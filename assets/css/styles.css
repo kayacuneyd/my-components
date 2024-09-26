@@ -17,3 +17,17 @@
 .border-bottom-ck{
     border-bottom: 1px solid #d0decb59 !important;
 }
+
+/* .text-ck-special{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #243b4d;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+} */
+
+.text-ck-special {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #243b4d;
+    transition: transform 0.2s ease; /* Geçiş efekti eklemek için */
+  }

@@ -12,9 +12,7 @@ export function AboutDesc() {
                 <p class="lead color-ck text-muted mb-4">
                 I have a deep understanding of the latest technologies and trends, 
                 and my goal is to help businesses and individuals create a strong online presence.
-                </p>
-                <p class="lead color-ck text-muted mb-4">
-                with over 3 years of experience in building professional websites and web applications, 
+                With over 3 years of experience in building professional websites and web applications, 
                 I specialize in delivering modern, responsive, and user-friendly websites tailored to your needs. 
                 Explore my services and portfolio, and let's collaborate to create your next project.
                 </p>
