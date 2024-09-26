@@ -6,6 +6,7 @@ import { Testimonial } from './components/Testimonial.js';
 import { Features } from './components/Features.js';
 
 import { AboutHeader } from './components/page-about/AboutHeader.js';
+import { AboutDesc } from './components/page-about/AboutDesc.js';
 import { AboutSectionOne } from './components/page-about/AboutSectionOne.js';
 import { AboutSectionTwo } from './components/page-about/AboutSectionTwo.js';
 import { AboutSectionThree } from './components/page-about/AboutSectionThree.js';
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'footer': Footer,
         'testimonial': Testimonial,
         'about-header': AboutHeader, // Only present on about.html
+        'about-desc': AboutDesc, 
         'about-section-one': AboutSectionOne, // Only present on about.html
         'about-section-two': AboutSectionTwo, // Only present on about.html
         'about-section-three': AboutSectionThree,

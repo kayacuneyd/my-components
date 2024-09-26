@@ -13,7 +13,10 @@ export function Header() {
                 Ready to bring your vision to life? Let's discuss your project and get started today!
               </p>
               <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="mailto:info@kayacuneyt.com">Get Contacted</a>
+                <a class="btn bk-ck-light color-ck-dark fw-bold btn-lg px-4 me-sm-3" 
+                href="mailto:info@kayacuneyt.com">
+                Get Contacted
+                </a>
 
               </div>
             </div>

@@ -13,3 +13,7 @@
 .color-ck-dark{
     color: #243b4d !important;
 }
+
+.border-bottom-ck{
+    border-bottom: 1px solid #d0decb59 !important;
+}

@@ -1,5 +1,13 @@
 // assets/js/components/page-about/AboutHeader.js
+import { quotesData } from '../../quotesData.js';
+
 export function AboutHeader() {
+  // body'deki data-page attribute'unu alıyoruz
+  const page = document.body.getAttribute('data-page') || 'about'; // Eğer 'data-page' yoksa, default olarak 'about' kullanılır.
+
+  // Belirlenen sayfaya göre quote'u seçiyoruz.
+  const { title, quote } = quotesData[page] || quotesData['about'];
+
   return `
       <header class="py-5">
         <div class="container px-5">
@@ -7,14 +15,11 @@ export function AboutHeader() {
             <div class="col-lg-8 col-xxl-6">
               <div class="text-center my-5">
                 <h1 class="fw-bolder mb-3">
-                A ship is safe in the harbor,
+                  ${title}
                 </h1>
                 <p class="lead fw-normal text-muted mb-4">
-                but it will never know the meaning of freedom unless it sails. 
-                The waves will challenge you, 
-                but remember, it’s not the wind that brings you to shore—it’s your sails.
+                  ${quote}
                 </p>
-
               </div>
             </div>
           </div>
@@ -22,3 +27,4 @@ export function AboutHeader() {
       </header>
     `;
 }
+

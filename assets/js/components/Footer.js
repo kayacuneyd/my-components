@@ -8,11 +8,11 @@ export function Footer() {
             <div class="small m-0 text-white">Copyright &copy; Your Website 2023</div>
           </div>
           <div class="col-auto">
-            <a class="link-light small" href="#!">Privacy</a>
+            <a class="link-light small" href="./privacy.html">Privacy</a>
             <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Terms</a>
+            <a class="link-light small" href="./terms.html">Terms</a>
             <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Contact</a>
+            <a class="link-light small" href="#!">Impress</a>
           </div>
         </div>
       </div>

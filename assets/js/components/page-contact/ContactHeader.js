@@ -1,12 +1,12 @@
 // assets/js/components/page-contact/ContactHeader.js
 export function ContactHeader() {
   return `
-    <section class="py-5">
+    <section class="py-5 bg-light ">
       <div class="container px-5">
-        <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
+        <div class="rounded-3 py-5 px-4 px-md-5 mb-5">
           <div class="text-center mb-5">
             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-            <h1 class="fw-bolder">Get in touch</h1>
+            <h1 class="fw-bolder color-ck-dark">Get in touch</h1>
             <p class="lead fw-normal text-muted mb-0">We'd love to hear from you</p>
           </div>
           <div class="row gx-5 justify-content-center">
@@ -33,7 +33,7 @@ export function ContactHeader() {
                   <div class="invalid-feedback">A message is required.</div>
                 </div>
                 <div class="d-grid">
-                  <button class="btn btn-primary btn-lg" id="submitButton" type="submit">Send Message</button>
+                  <button class="btn bg-ck color-ck  btn-lg" id="submitButton" type="submit">Send Message</button>
                 </div>
               </form>
               <input type="text" id="mailtoLink" readonly style="opacity: 0; height: 0; position: absolute;">
