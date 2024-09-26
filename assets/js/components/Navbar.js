@@ -1,7 +1,7 @@
 // assets/js/components/common/Navbar.js
 export function Navbar() {
   return `
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-ck">
       <div class="container px-5">
         <a class="navbar-brand" href="index.html">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
