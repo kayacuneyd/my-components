@@ -12,7 +12,7 @@ export function Footer() {
             <span class="text-white mx-1">&middot;</span>
             <a class="link-light small" href="./terms.html">Terms</a>
             <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Impress</a>
+            <a class="link-light small" href="./contact.html">Contact</a>
           </div>
         </div>
       </div>
