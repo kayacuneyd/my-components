@@ -1,4 +1,3 @@
-// assets/js/loadComponents.js
 import { Header } from './components/Header.js';
 import { Navbar } from './components/Navbar.js';
 import { Footer } from './components/Footer.js';
@@ -20,6 +19,7 @@ import { PortfolioHeader } from './components/page-portfolio/PortfolioHeader.js'
 import { PortfolioCallToAction } from './components/page-portfolio/PortfolioCallToAction.js';
 import { Video } from './components/Video.js';
 
+import { SEO } from './components/SEO.js'; // SEO component importu
 
 document.addEventListener('DOMContentLoaded', () => {
     // Componentleri ve onların yükleneceği element ID'lerini tanımla
@@ -49,4 +49,31 @@ document.addEventListener('DOMContentLoaded', () => {
             element.innerHTML = components[id](); // Component fonksiyonunu çağır
         }
     });
+
+    // SEO bilgilerini yükle
+    const page = document.body.getAttribute('data-page');  // data-page attribute'undan sayfa adını alıyoruz
+
+    if (page) {
+        // JSON dosyasını fetch API ile yükle
+        fetch('/assets/js/seoData.json') // JSON dosyasının yolu
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data[page]) {
+                    const { title, description, keywords } = data[page];
+                    SEO({
+                        title,
+                        description,
+                        keywords
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+    }
 });
