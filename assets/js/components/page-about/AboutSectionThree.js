@@ -5,7 +5,11 @@ export function AboutSectionThree() {
       <div class="container px-5 my-5">
         <div class="row gx-5 align-items-center">
           <div class="col-lg-6">
-            <img class="img-fluid rounded mb-5 mb-lg-0" src="https://images.pexels.com/photos/5614259/pexels-photo-5614259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="..." />
+            <img 
+            class="img-fluid rounded mb-5 mb-lg-0" 
+            src="https://images.pexels.com/photos/5614259/pexels-photo-5614259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+            alt="life changing decisions" 
+            />
           </div>
           <div class="col-lg-6">
             <h2 class="fw-bolder">A small breakthrough...</h2>

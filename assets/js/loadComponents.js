@@ -18,6 +18,7 @@ import { ContactInfo } from './components/page-contact/ContactInfo.js';
 
 import { PortfolioHeader } from './components/page-portfolio/PortfolioHeader.js';
 import { PortfolioCallToAction } from './components/page-portfolio/PortfolioCallToAction.js';
+import { Video } from './components/Video.js';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const components = {
         'navbar': Navbar,
         'header': Header,
+        'video': Video,
         'features': Features, // Only present on index.html
         'footer': Footer,
         'testimonial': Testimonial,

@@ -2,8 +2,26 @@
     background-color: #243b4d !important;
 }
 
-.bk-ck-light{
+.bg-ck-hover{
+    background-color: #243b4dd3 !important;
+}
+
+.bg-ck-light{
     background-color: #d0decb !important;
+}
+
+.bg-ck-light-hover{
+    background-color: #d0decbda !important;
+}
+
+.large-font{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.xlarge-font{
+    font-size: x-large;
+    font-weight: 500;
 }
 
 .color-ck{

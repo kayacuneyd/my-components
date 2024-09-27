@@ -2,7 +2,7 @@
 export function Footer() {
   const currentYear = new Date().getFullYear();
   return `
-    <footer class="bg-ck py-4 mt-auto">
+    <footer class="bg-ck py-4 large-font mt-auto">
       <div class="container px-5">
         <div class="row align-items-center justify-content-between flex-column flex-sm-row">
           <div class="col-auto">

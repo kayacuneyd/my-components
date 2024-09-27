@@ -9,7 +9,7 @@ export function AboutHeader() {
   const { title, quote } = quotesData[page] || quotesData['about'];
 
   return `
-      <header class="py-5">
+      <header class="py-5 bg-ck-light">
         <div class="container px-5">
           <div class="row justify-content-center">
             <div class="col-lg-8 col-xxl-6">

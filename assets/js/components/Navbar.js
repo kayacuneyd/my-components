@@ -2,8 +2,8 @@
 export function Navbar() {
   return `
     <nav class="navbar navbar-expand-lg navbar-dark bg-ck border-bottom-ck">
-      <div class="container px-5">
-        <a class="navbar-brand color-ck" href="index.html">Cüneyt Kaya WPD</a>
+      <div class="container py-2 px-5 xlarge-font">
+        <a class="navbar-brand color-ck xlarge-font" href="index.html">Cüneyt Kaya WPD</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
         </button>
