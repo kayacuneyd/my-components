@@ -1,3 +1,4 @@
+// assets/js/loadComponents.js
 import { Header } from './components/Header.js';
 import { Navbar } from './components/Navbar.js';
 import { Footer } from './components/Footer.js';
@@ -19,7 +20,7 @@ import { PortfolioHeader } from './components/page-portfolio/PortfolioHeader.js'
 import { PortfolioCallToAction } from './components/page-portfolio/PortfolioCallToAction.js';
 import { Video } from './components/Video.js';
 
-import { SEO } from './components/SEO.js'; // SEO component importu
+import { SEO } from './components/SEO.js'; // SEO componentini import ediyoruz
 
 document.addEventListener('DOMContentLoaded', () => {
     // Componentleri ve onların yükleneceği element ID'lerini tanımla

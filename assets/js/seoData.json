@@ -1,23 +1,26 @@
 {
-    "home": {
-      "title": "Home - Cüneyt Kaya Web Development",
-      "description": "Welcome to Cüneyt Kaya's official website. Specializing in web development services, check out our projects and get in touch.",
-      "keywords": "home, Cüneyt Kaya, web development, services"
-    },
-    "contact": {
-      "title": "Contact Us - Cüneyt Kaya Web Development",
-      "description": "Get in touch with Cüneyt Kaya for web development services. Contact us for more details.",
-      "keywords": "contact, web development, email, phone, services"
-    },
-    "about": {
-      "title": "About Us - Cüneyt Kaya Web Development",
-      "description": "Learn more about Cüneyt Kaya and the web development services provided.",
-      "keywords": "about us, Cüneyt Kaya, web development, services"
-    },
-    "portfolio": {
-      "title": "Portfolio - Cüneyt Kaya Web Development",
-      "description": "Check out the portfolio of Cüneyt Kaya showcasing web development projects.",
-      "keywords": "portfolio, web development, projects"
-    }
+  "home": {
+    "title": "Home - Cüneyt Kaya Web Development",
+    "description": "Welcome to Cüneyt Kaya's official website. Specializing in web development services, check out our projects and get in touch.",
+    "author": "Cüneyt Kaya",
+    "keywords": "home, Cüneyt Kaya, web development, services"
+  },
+  "contact": {
+    "title": "Contact Us - Cüneyt Kaya Web Development",
+    "description": "Get in touch with Cüneyt Kaya for web development services. Contact us for more details.",
+    "author": "Cüneyt Kaya",
+    "keywords": "contact, web development, email, phone, services"
+  },
+  "about": {
+    "title": "About Us - Cüneyt Kaya Web Development",
+    "description": "Learn more about Cüneyt Kaya and the web development services provided.",
+    "author": "Cüneyt Kaya",
+    "keywords": "about us, Cüneyt Kaya, web development, services"
+  },
+  "portfolio": {
+    "title": "Portfolio - Cüneyt Kaya Web Development",
+    "description": "Check out the portfolio of Cüneyt Kaya showcasing web development projects.",
+    "author": "Cüneyt Kaya",
+    "keywords": "portfolio, web development, projects"
   }
-  
+}
