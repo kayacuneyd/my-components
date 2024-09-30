@@ -1,9 +1,9 @@
 // assets/js/components/page-contact/ContactInfo.js
 export function ContactInfo() {
   return `
-    <section class="py-5">
+    <section class="py-5 bg-ck-light">
       <div class="container px-5">
-        <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5">
+        <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5 color-ck-dark">
           <div class="col">
             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-chat-dots"></i></div>
             <div class="h5 mb-2">Project Inquiries</div>

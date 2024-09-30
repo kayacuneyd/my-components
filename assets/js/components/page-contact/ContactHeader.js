@@ -1,8 +1,8 @@
 // assets/js/components/page-contact/ContactHeader.js
 export function ContactHeader() {
   return `
-    <section class="py-5 bg-light ">
-      <div class="container px-5">
+    <section class="py-5 bg-light border-bottom">
+      <div class="container px-5color-ck-dark">
         <div class="rounded-3 py-5 px-4 px-md-5 mb-5">
           <div class="text-center mb-5">
             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
